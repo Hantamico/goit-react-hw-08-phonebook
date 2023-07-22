@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact__item {
+  display: flex;
+  gap: 15px;
+}
+
+.contact__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.delete_btn {
+  background-color: #fff;
+  border: 3px solid #1976d2;
+  color: #1976d2;
+  border-radius: 4px;
+  display: block;
+  margin: 5px, 10px;
+}
